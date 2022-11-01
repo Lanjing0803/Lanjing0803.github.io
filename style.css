@@ -1,1 +1,297 @@
+.navigation{
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:1;
+    pointer-events: none;
+}
+.nav-container{
+    background: #f0eef5;
+     margin-top: 0px;
+   
+   
+}
+.nav-container2 {
+    max-width: 1100px;
+    margin:0 auto;
+}
 
+.menu{
+    position:relative;
+    display:inline-block;
+    float: right;
+    padding: 5px 0;
+    margin-top: 20px;
+    margin-left: -15px;
+    font-size: 0.8rem;
+}
+.homepage-logo{
+    pointer-events: auto;
+    margin-top: 10px;
+}
+.homepage-logo:hover{
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(360deg);}}
+
+li{
+    display: inline;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: auto;
+    text-align: justify;
+}
+a{
+    pointer-events: auto;
+    text-decoration: none;
+    color:#8a6982;
+}
+a:hover{
+    color:blueviolet
+}
+a:active{
+    color:burlywood
+}
+
+       
+
+header {
+    position:relative;
+    display:block;
+    text-align: center;
+    width: 100%;
+    min-height: 700px;
+      
+}
+.header-content {
+    font-family:'Montserrat Alternates', sans-serif;
+    position:relative;
+    top:150px;
+    left:auto;
+    padding-top: 30px;
+}
+.title{
+    font-family:'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    color:#8a6982;
+    font-size: 1.7rem;
+    letter-spacing: .07em;
+}
+.name{
+    font-family:'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+    font-weight: 800px;
+    color:#1f1d1e;
+}
+
+
+.bg-banner{
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 80%; 
+    padding-bottom: 0;
+}
+
+.banner{
+    
+    background-image: url("img/1.gif");
+    background-color: #f0eef5;
+    width:100%;height:100%;
+    align-items: center;
+    background-position:center;
+}
+
+
+
+.intro3{
+    
+    position:relative;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+  
+}
+span {
+ 
+    display:inline-block;
+    padding:0;
+    margin: 0;
+    user-select: none;
+  
+  }
+ 
+  span.icon:hover {
+
+    transition:0.3s;
+    transform: rotate(-90deg);
+  }
+
+h3 {
+    color:#8a6982;
+margin-top: 0px;
+font-family:'Montserrat Alternates', sans-serif;
+font-weight: 300;
+ font-size: 1rem;
+ line-height:1.8rem;
+left:auto;
+}
+
+
+
+.latest-work {
+    letter-spacing: .07em;
+    font-family:'Montserrat Alternates', sans-serif;
+    color:#1f1d1e;
+    text-align: center;
+   padding-top: 70px;
+   
+}
+.page-header{
+    padding-top:50px;
+}
+
+.gallery{
+    position:relative;
+    white-space: nowrap;
+    padding-top: 30px;
+    max-width: 950px;
+    min-width:950px;
+    margin:0 auto;
+    position:block;
+   justify-content: center;
+   column-count:3;
+
+}
+.gallery2{
+    position:relative;
+    white-space: nowrap;
+    padding-top: 30px;
+    max-width: 1000px;
+    min-width:1000px;
+    margin:0 auto;
+    position:block;
+   justify-content: center;
+   column-gap: 60px;
+   column-count:2;
+
+}
+.work{
+   margin-bottom: 10px;
+   background: #fff;
+   width:calc(100%/3-20px);
+}
+.Img{
+   width: 300px;
+   height:auto;
+}
+.Img2{
+    width: 500px;
+    height:auto;
+ }
+
+body{
+  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.worktogether{
+
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+color:#1f1d1e;
+margin-top: 0px;
+min-width: 400px;
+display:flex;
+max-width: 900px;
+margin:0 auto;
+padding-top:50px;
+
+
+}
+.contact-me-title{
+    letter-spacing: .07em;
+    font-family:'Montserrat Alternates', sans-serif;
+    color:#1f1d1e;
+    text-align: left;
+   padding-top: 70px;
+}
+.contact-me-text{
+    font-family:'Montserrat Alternates', sans-serif;
+    max-width: 500px;
+    font-weight: 300;
+     font-size: 1rem;
+     line-height:1.8rem;
+    text-align:left;
+}
+.contact-me-button{
+    font-size: 1.2rem;
+    padding-top:20px;
+    text-align:left;
+    text-transform: uppercase;
+}
+.contact-me-button a{ 
+     text-decoration: none;
+     letter-spacing: .07em;
+     
+    }
+
+.contact-me-img img{
+    width: auto;
+    height:300px;
+    margin:0 auto;
+    padding:50px;
+    align-items: right;
+}
+.more-work-button{
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color:#1f1d1e;
+      padding-top:50px;
+        font-size: 1.2rem;
+        text-align:center;
+        text-transform: uppercase;
+    }
+    .more-work-button a{ 
+        text-decoration: none;
+        letter-spacing: .07em;
+       }
+
+
+
+footer{
+ 
+    margin-top: 100px;
+    text-align: center;   
+    align-items: center;
+    background-position:center;
+}
+
+ 
+.submit {
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        letter-spacing: .07em;
+        padding: 16px 35px;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+   
+        border-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        transition:.2s;
+}
+    
