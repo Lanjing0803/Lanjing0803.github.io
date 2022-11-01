@@ -55,26 +55,26 @@
 
                 <form >
                     <div class="row vertical-gap">
-                        <div>
-                            <input type="text"  name="name" placeholder="Your Name">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control required" name="name" placeholder="Your Name">
                         </div>
                         <div class="col-md-6">
-                            <input type="email"  name="email" placeholder="Your Email">
+                            <input type="email" class="form-control required" name="email" placeholder="Your Email">
                         </div>
                     </div>
 
-                    <div class="gap-1"></div>
-                
+                    <div class="nk-gap-1"></div>
+                    <input type="text" class="form-control required" name="title" placeholder="Your Title">
 
                     <div class="gap-1"></div>
-                     <div class="gap-1"></div>
+                    <textarea class="form-control required" name="message" rows="8" placeholder="Your Message" aria-required="true"></textarea>
+                    <div class="gap-1"></div>
                     <div class="form-response-success"></div>
                     <div class="form-response-error"></div>
                     <button class=" submit">Submit</button>
                 </form>
             </div>
-    
-    </div>      
+        </div>  
 </main>
  </body>
 
